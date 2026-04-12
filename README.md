@@ -1,70 +1,29 @@
-# Getting Started with Create React App
+# Invoice Terminal Pro — Invoicing Engine
+A sophisticated, minimalist, and robust invoicing solution engineered for modern web-centric workflows. This project moves away from generic **"generators"** toward a high-end Billing Terminal experience, prioritizing clean frontend architecture and smart data handling.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Core Engineering & Features
+* **Dynamic Data Architecture:** The system is powered by a centralized JSON-driven layer. This allows for seamless service updates, price modifications, and inventory management without touching the core logic.
+* **Automated Financial Engine:** Built-in calculation logic that handles real-time unit pricing, quantity multiplications, and dynamic discount subtractions with precision.
+* **Intelligent Bulk Detection:** A custom status-monitoring system that injects visual "Bulk Badges" into the UI when item quantities hit specific thresholds, perfect for wholesale service tracking.
+* **Print-Engine Optimization:** Specialized CSS media queries and "Glass-Card" layouts designed specifically to ensure that digital dashboards translate perfectly into professional physical or PDF documents.
+* **Pixel-Perfect Design System:** Focused on high-fidelity aesthetics, utilizing a custom color palette (#7c3aed), professional typography (Poppins), and a streamlined user flow to reduce "billing fatigue."
 
-## Available Scripts
+### Technical Stack
+* **Core Framework:** React.js (leveraging Functional Components and Advanced Hooks for state management).
+* **Advanced Styling:** Modular CSS3 utilizing CSS Variables (Custom Properties) for brand-wide consistency and easy theme switching.
+* **Visual Assets:** Font-Awesome integration for intuitive iconography and custom-designed branding assets.
+* **UI Typography:** Premium Google Fonts integration to maintain a high-end corporate standard across all devices.
 
-In the project directory, you can run:
+### Quick Installation
+Step 1: Clone the Project
+**git clone https://github.com/ubaid-ur-rehman/invoice-generator-pro.git**
+**cd invoice-generator-pro**
 
-### `npm start`
+Step 2: Install Dependencies
+**npm install**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Step 3: Launch Terminal
+**npm start**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Step 4: Configure Services
+**Open public/data.json to update your service list, pricing, and default discounts.**
