@@ -18,12 +18,9 @@ A sophisticated, minimalist, and robust invoicing solution engineered for modern
 Step 1: Clone the Project
 **git clone https://github.com/ubaid-ur-rehman/invoice-generator-pro.git**
 **cd invoice-generator-pro**
-
 Step 2: Install Dependencies
 **npm install**
-
 Step 3: Launch Terminal
 **npm start**
-
 Step 4: Configure Services
 **Open public/data.json to update your service list, pricing, and default discounts.**
